@@ -2,6 +2,13 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
+from tools import (
+    get_current_time,
+    roll_dice,
+    generate_password
+)
+
+
 # Load configuration
 load_dotenv()
 
@@ -53,6 +60,26 @@ while True:
 
     user_input = input("\nYou : ")
     # Save the user's message
+
+    if "time" in user_input.lower():
+
+        print("\nAI :", get_current_time())
+
+        continue
+
+    if "dice" in user_input.lower():
+
+        print("\nAI : You rolled", roll_dice())
+
+        continue
+
+    if "password" in user_input.lower():
+
+        print("\nAI :", generate_password())
+
+        continue
+
+
     messages.append(
         {
             "role": "user",
