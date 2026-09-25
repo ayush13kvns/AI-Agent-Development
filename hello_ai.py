@@ -17,7 +17,7 @@ response = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "How is today's weather in Pune,India?"
+            "content": "How is today's weather in Varanasi,India?"
         }
     ]
 )
