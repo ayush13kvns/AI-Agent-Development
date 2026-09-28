@@ -1,0 +1,12 @@
+Python is one of the most popular programming languages.
+
+It is easy to learn.
+
+Python is widely used in Artificial Intelligence,
+Machine Learning,
+Data Science,
+Automation,
+and Web Development.
+
+Python supports object-oriented programming
+and has thousands of useful libraries.
