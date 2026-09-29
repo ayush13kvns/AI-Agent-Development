@@ -1,0 +1,8 @@
+MySQL is a relational database management system.
+
+It stores structured data
+using tables,
+rows,
+and columns.
+
+SQL is used to query data.

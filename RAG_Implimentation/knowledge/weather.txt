@@ -1,0 +1,6 @@
+Weather forecasting predicts future atmospheric conditions.
+
+It uses temperature,
+humidity,
+wind speed,
+and pressure.
